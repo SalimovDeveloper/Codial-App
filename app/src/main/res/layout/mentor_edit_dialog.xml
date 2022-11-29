@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="50dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/card_corner"
+        android:layout_marginTop="20dp"
+        android:hint="Kurs nomi"/>
+    <EditText
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/card_corner"
+        android:layout_marginTop="20dp"
+        android:hint="Kurs haqida"/>
+    <EditText
+        android:id="@+id/about_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:background="@drawable/card_corner"
+        android:layout_marginTop="20dp"
+        android:hint="Kurs haqida"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="right|center">
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yopish"
+            android:textColor="#1A4E79"
+            android:layout_marginEnd="15dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qo'shish"
+            android:textColor="#FFB800"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>
